@@ -1,0 +1,19 @@
+#Methodology
+1. Data collection
+collecting dataset of 6500 apps from Kaggle and fraud apps from various articles.
+
+2. Data pre-processing and filtration 
+remove missing value, only required columns are kept. This is done through pandas
+
+3. Model creation and training
+In the model we have taken 75% of the data for training and rest 25% for testing
+We have Made model of decision tree, naive bayes algorithm and logistics regression. Further after comparing all the models, since the accuracy of decision tree was highest, so we picked it's model.
+
+4. Deploying of model
+Made user interface web page using flask. In which the user puts the url in the search box and gets the result as "fake" or "safe to use" for the app.
+
+#Result
+The main purpose of the proposed system was to review the fraud detection of google play store applications and to use the four parameter methods to differentiate certain fraudulent applications or commonly referred to as spam applications. 
+The system will receive fraud with four types of evidence, such as ad-based ratings, in-app purchases and evidence-based reviews. In addition, the development-based integration approach incorporates all four aspects to detect fraud. 
+By analysis, we found that the proposed method provides 85% accuracy compared to other algorithms. 
+While independent thinking still exists, the Decision Tree section performs better compared to other models such as the logistic regression and the Naïve Bayes. 
